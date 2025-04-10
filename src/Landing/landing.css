@@ -211,9 +211,8 @@
 
 @media (max-width: 1350px) {
 	.about-text-container {
-		margin-left: 0px;
 		height: 350px;
-		padding-left: 10%;
+		font-size: 1rem;
 	}
 	.about-text-container {
 		margin: 0 0 0 0;
@@ -223,12 +222,26 @@
 	}
 }
 @media (max-width: 1200px) {
-	.about-left-title {
-		font-size: 12rem;
-		line-height: 6rem;
+	.grid-container > div {
+		border: yellow solid 3px;
 	}
-	.about-left-description {
-		font-size: 1.5rem;
+	.about-text-container {
+		height: 300px;
+		width: 85%;
+		font-size: 0.8rem;
+		border: solid blue 3px;
+	}
+	.about-pic {
+		display: inline-block;
+		justify-content: left;
+		border: solid red 3px;
+	}
+	.about-pic img {
+		height: 85%;
+		border: solid blue 3px;
+	}
+	.about-text-container h1 {
+		width: 75%;
 	}
 }
 @media (max-width: 1100px) {
