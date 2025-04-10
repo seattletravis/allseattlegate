@@ -118,7 +118,14 @@ function Landing() {
 					<h1>IAN AND TRAVIS LOOK FORWARD TO IT!</h1>
 				</div>
 			</div>
-			<div className='grid-container'>Hello</div>
+			<div className='grid-container'>
+				<div className='open-statement-container'></div>
+				<div className='about-text'></div>
+				<div className='about-pic'></div>
+				<div className='FAQ-pic'></div>
+				<div className='FAQ-text'></div>
+				<div className='close-statement-container'></div>
+			</div>
 		</>
 	);
 }

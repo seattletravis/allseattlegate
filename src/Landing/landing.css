@@ -180,6 +180,25 @@
 	background-color: aqua;
 }
 
+.open-statement-container {
+	grid-area: 1 / 1 / 2 / 3;
+}
+.about-text {
+	grid-area: 2 / 1 / 3 / 2;
+}
+.about-pic {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.FAQ-pic {
+	grid-area: 3 / 2 / 4 / 3;
+}
+.FAQ-text {
+	grid-area: 3/2/4/3;
+}
+.close-statment-container {
+	grid-area: 4 / 1 / 5 / 3;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1400px) {
 	.about-left-title {
