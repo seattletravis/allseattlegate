@@ -210,38 +210,42 @@
 }
 
 @media (max-width: 1350px) {
+	.grid-container {
+		grid-template-columns: 700px;
+	}
 	.about-text-container {
-		height: 350px;
+		height: 400px;
 		font-size: 1rem;
 	}
 	.about-text-container {
 		margin: 0 0 0 0;
 	}
 	.about-text-container h1 {
-		width: 90%;
+		width: 84%;
 	}
 }
 @media (max-width: 1200px) {
-	.grid-container > div {
-		border: yellow solid 3px;
+	.grid-container {
+		grid-template-columns: 600px;
 	}
+
 	.about-text-container {
-		height: 300px;
+		height: 500px;
 		width: 85%;
 		font-size: 0.8rem;
-		border: solid blue 3px;
 	}
 	.about-pic {
 		display: inline-block;
 		justify-content: left;
-		border: solid red 3px;
 	}
 	.about-pic img {
+		position: relative;
+		margin: 0em;
 		height: 85%;
-		border: solid blue 3px;
 	}
 	.about-text-container h1 {
-		width: 75%;
+		width: 79%;
+		font-size: 1.9rem;
 	}
 }
 @media (max-width: 1100px) {
