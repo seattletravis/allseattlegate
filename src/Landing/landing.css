@@ -60,6 +60,57 @@
 	color: white;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* grid-column-gap: 50px; */
+	grid-row-gap: 100px;
+	color: black;
+}
+
+.open-statement-container {
+	grid-area: 1 / 1 / 2 / 3;
+	background-color: rgb(245, 245, 230);
+	height: 450px;
+	padding-top: 100px;
+	position: relative;
+	text-align: center;
+}
+.about-text {
+	grid-area: 2 / 1 / 3 / 2;
+	margin-left: 200px;
+	height: 550px;
+}
+.about-pic {
+	grid-area: 2 / 2 / 3 / 3;
+}
+.about-pic img {
+	height: 100%;
+	margin-left: 100px;
+}
+.FAQ-pic {
+	grid-area: 3 / 1 / 4 / 2;
+	margin-left: 300px;
+}
+.FAQ-pic img {
+	height: 100%;
+}
+.FAQ-text {
+	grid-area: 3 / 2 / 4 / 3;
+	margin-right: 200px;
+	height: 550px;
+	padding-top: 100px;
+}
+.close-statement-container {
+	grid-area: 4 / 1 / 5 / 3;
+	height: 100px;
+	background-color: rgb(245, 245, 230);
+	padding-top: 100px;
+	position: relative;
+	height: 375px;
+	text-align: center;
+}
+
 .about-us-title {
 	padding: 60px 0 30px;
 	color: black;
@@ -105,15 +156,6 @@
 	margin-left: 125px;
 }
 
-.FAQ-container {
-	margin-top: 100px;
-	display: flex;
-	position: relative;
-}
-.FAQ-left {
-	width: 50%;
-	padding-left: 175px;
-}
 .FAQ-title {
 	padding: 60px 0 30px;
 	color: black;
@@ -138,10 +180,6 @@
 	width: 45%;
 }
 
-.FAQ-right {
-	width: 50%;
-	padding-right: 225px;
-}
 .FAQ-left img {
 	display: block;
 	margin: auto;
@@ -157,55 +195,6 @@
 	text-underline-offset: 7px;
 	font-weight: 100;
 	font-size: 1.9rem;
-}
-
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 100px;
-	grid-row-gap: 25px;
-	/* background-color: bisque; */
-	color: black;
-	border: solid red 3px;
-}
-.grid-container > div {
-	/* background-color: aqua; */
-	height: 550px;
-	border: solid blue 3px;
-}
-
-.open-statement-container {
-	grid-area: 1 / 1 / 2 / 3;
-	background-color: rgb(245, 245, 230);
-	padding-top: 100px;
-	position: relative;
-	text-align: center;
-}
-.about-text {
-	grid-area: 2 / 1 / 3 / 2;
-	margin-left: 200px;
-}
-.about-pic {
-	grid-area: 2 / 2 / 3 / 3;
-	margin-right: 200px;
-}
-.about-pic img {
-	height: 100%;
-}
-.FAQ-pic {
-	grid-area: 3 / 1 / 4 / 2;
-}
-.FAQ-text {
-	grid-area: 3 / 2 / 4 / 3;
-}
-.close-statement-container {
-	grid-area: 4 / 1 / 5 / 3;
-	height: 100px;
-	background-color: rgb(245, 245, 230);
-	padding-top: 100px;
-	position: relative;
-	height: 375px;
-	text-align: center;
 }
 
 /* RESPONSIVE */

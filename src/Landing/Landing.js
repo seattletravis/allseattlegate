@@ -82,10 +82,10 @@ function Landing() {
 					<div>
 						<h1 className='about-us-title'>About Us</h1>
 						<h1 className='about-us-text'>
-							At All Seattle Gate, we specialize in creating custom gates that
-							elevate your yard with beauty and craftsmanship. Founded by two
-							friends with expertise in woodworking and metal construction, we
-							design gates that are both functional and timeless. From wooden
+							Here at All Seattle Gate, we specialize in creating custom gates
+							that elevate your yard with beauty and craftsmanship. Founded by
+							two friends with expertise in woodworking and metal construction,
+							we design gates that are both functional and timeless. From wooden
 							gates for garden charm to sleek metal designs for a modern edge,
 							we turn your vision into a stunning reality.
 						</h1>
@@ -111,7 +111,7 @@ function Landing() {
 					<div className='landing-text-container' id='tail-text'>
 						<h1>FIND YOUR PERFECT GATE</h1>
 						<button>CONTACT US</button>
-						<h1>IAN AND TRAVIS ARE LOOKING FORWARD TO IT!</h1>
+						<h1>LETS TALK!</h1>
 					</div>
 				</div>
 			</div>
