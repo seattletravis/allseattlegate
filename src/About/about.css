@@ -1,0 +1,31 @@
+.buy-link-container {
+	color: black;
+	display: block;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25rem;
+	line-height: 3em;
+}
+.message-h1 {
+	width: 100%;
+	text-align: center;
+	padding: 0 5rem 0 5rem;
+	margin-bottom: 3em;
+}
+.link {
+	/* align-self: center; */
+	text-align: center;
+	font-size: 3rem;
+}
+
+@media (max-width: 1100px) {
+	.buy-link-container {
+		margin-top: 8em;
+	}
+	.message-h1 {
+		width: 100%;
+		text-align: center;
+		padding: 0 7rem 0 7rem;
+	}
+}

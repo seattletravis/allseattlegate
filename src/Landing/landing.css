@@ -1,0 +1,326 @@
+.about-container {
+	padding-top: 15rem;
+	margin: 0 auto;
+	width: 100%;
+}
+.about-left-box {
+	position: relative;
+	background-image: url('../Media/Images/gatePic.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 45%;
+	height: 400px;
+	/* border: solid red 3px; */
+}
+
+.landing-nav-menu {
+	position: absolute;
+	list-style-type: none;
+	margin: 1rem 0 0 10rem;
+}
+.landing-nav-menu h1 {
+	font-size: 4rem;
+	font-family: 'Scope One', 'serif';
+	-webkit-text-stroke: 0.6px black;
+	text-decoration: underline grey 2px;
+	text-underline-offset: 10px;
+	color: white;
+	margin: 0 0 -0.3em 0;
+}
+
+.landing-text-container {
+	padding-top: 80px;
+	position: relative;
+
+	background-color: rgb(245, 245, 230);
+	height: 375px;
+	text-align: center;
+}
+.landing-text-container h1 {
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 2.4em;
+	line-height: 1.5em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+.landing-text-container button {
+	margin-top: 25px;
+	padding: 15px 25px 15px 25px;
+	border: solid black 2px;
+	border-radius: 5px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+}
+.landing-text-container button:hover {
+	background-color: grey;
+	color: white;
+}
+
+.about-us-container {
+	margin-top: 100px;
+	display: flex;
+	position: relative;
+}
+.about-us-left {
+	width: 50%;
+	padding-left: 175px;
+}
+.about-us-title {
+	padding: 60px 0 30px;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 3.4em;
+	line-height: 1.5em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+.about-us-text {
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 1.9em;
+	line-height: 1.5em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+.about-us-link {
+	padding-top: 10px;
+	color: grey;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+	font-weight: 100;
+	font-size: 2em;
+	line-height: 1.5em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+.about-us-right {
+	width: 50%;
+}
+.about-us-right img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-left: 125px;
+}
+
+.FAQ-container {
+	margin-top: 100px;
+	display: flex;
+	position: relative;
+}
+.FAQ-left {
+	width: 50%;
+	padding-left: 175px;
+}
+.FAQ-title {
+	padding: 60px 0 30px;
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 3.4em;
+	line-height: 1em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+.FAQ-text {
+	color: black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 1.9rem;
+	line-height: 1.5em;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	width: 45%;
+}
+
+.FAQ-right {
+	width: 50%;
+	padding-right: 225px;
+}
+.FAQ-left img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-right: 200px;
+	margin-bottom: 100px;
+}
+
+.FAQ-text span {
+	color: grey;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: underline;
+	text-underline-offset: 7px;
+	font-weight: 100;
+	font-size: 1.9rem;
+}
+
+.grid-container {
+	width: 100%;
+	background-color: bisque;
+	color: black;
+	border: solid red 3px;
+}
+.grid-container > div {
+	background-color: aqua;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1400px) {
+	.about-left-title {
+		font-size: 13rem;
+		line-height: 7rem;
+	}
+}
+@media (max-width: 1300px) {
+	.about-left-title {
+		font-size: 12rem;
+		line-height: 6.65rem;
+	}
+	.about-right-title {
+		font-size: 11rem;
+		line-height: 12rem;
+	}
+}
+@media (max-width: 1200px) {
+	.about-left-title {
+		font-size: 12rem;
+		line-height: 6rem;
+	}
+	.about-left-description {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 1100px) {
+	.about-left-title {
+		font-size: 12rem;
+		line-height: 6rem;
+	}
+	.about-container {
+		margin-top: 6em;
+		padding: 3.5rem 0 5rem 2rem;
+	}
+	.about-right-box {
+		padding-right: 5rem;
+	}
+}
+@media (max-width: 950px) {
+	.about-left-title {
+		font-size: 9rem;
+		line-height: 8.25rem;
+	}
+	.about-container {
+		align-items: center;
+		justify-content: center;
+	}
+	.about-left-box {
+		width: 100%;
+	}
+	.about-container {
+		flex-direction: column;
+	}
+	.about-left-box {
+		padding-left: 0rem;
+		font-size: 10px;
+	}
+}
+@media (max-width: 650px) {
+	.about-left-button-box {
+		padding-right: 0;
+	}
+	.about-left-box {
+		/* margin: 1em 0; */
+		font-size: 12px;
+	}
+	.about-container {
+		min-height: 0;
+	}
+	.about-left-title {
+		font-size: 6.5rem;
+		line-height: 6rem;
+	}
+	.about-left-description {
+		font-size: 1.5rem;
+	}
+	.about-contact-button {
+		font-size: 15px;
+		line-height: 45px;
+		height: 45px;
+		width: 165px;
+	}
+}
+@media (max-width: 480px) {
+	.about-left-title:before {
+		margin-top: -3.35rem;
+	}
+	.about-left-title {
+		font-size: 5rem;
+		line-height: 4.5rem;
+	}
+	.about-left-title:after {
+		margin-top: 1.25rem;
+		margin-left: 0.5rem;
+	}
+	.about-left-description {
+		font-size: 1.35rem;
+		letter-spacing: 2px;
+	}
+	.about-contact-button {
+		font-size: 11px;
+		line-height: 42px;
+		letter-spacing: 2px;
+		height: 43px;
+		width: 140px;
+	}
+}
+@media (max-width: 390px) {
+	.about-right-box {
+		width: 100%;
+	}
+	.about-left-box h1 {
+		font-size: 3rem;
+		padding-left: 0;
+	}
+	.about-left-title:before {
+		margin-top: -3.125rem;
+	}
+	.about-left-title {
+		font-size: 3.75rem;
+		line-height: 4.5rem;
+	}
+	.about-left-title:after {
+		margin-top: 1.35rem;
+	}
+	.about-left-description {
+		font-size: 1.25rem;
+		width: 80%;
+		padding-left: 0.2rem;
+		padding-right: 0;
+		margin-right: 0;
+	}
+	.about-contact-button {
+		font-size: 10px;
+		line-height: 38px;
+		align-self: start;
+	}
+	.about-left-button-box {
+		display: inline-block;
+		flex-direction: column;
+		align-items: left;
+	}
+}
