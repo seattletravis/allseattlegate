@@ -10,7 +10,6 @@
 	background-size: cover;
 	background-position: center 45%;
 	height: 400px;
-	/* border: solid red 3px; */
 }
 
 .landing-nav-menu {
@@ -28,21 +27,12 @@
 	margin: 0 0 -0.3em 0;
 }
 
-/* .landing-text-container {
-	padding-top: 80px;
-	position: relative;
-
-	background-color: rgb(245, 245, 230);
-	height: 375px;
-	text-align: center;
-} */
 .landing-text-container h1 {
 	color: black;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 100;
 	font-size: 2.4em;
 	line-height: 1.5em;
-	width: 100%;
 	margin: auto;
 	text-align: center;
 	width: 45%;
@@ -63,7 +53,6 @@
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	/* grid-column-gap: 50px; */
 	grid-row-gap: 100px;
 	color: black;
 }
@@ -76,7 +65,7 @@
 	position: relative;
 	text-align: center;
 }
-.about-text {
+.about-text-container {
 	grid-area: 2 / 1 / 3 / 2;
 	margin-left: 200px;
 	height: 550px;
@@ -97,7 +86,7 @@
 }
 .FAQ-text {
 	grid-area: 3 / 2 / 4 / 3;
-	margin-right: 200px;
+	margin-right: 100px;
 	height: 550px;
 	padding-top: 100px;
 }
@@ -106,22 +95,21 @@
 	height: 100px;
 	background-color: rgb(245, 245, 230);
 	padding-top: 100px;
-	position: relative;
+	margin-bottom: -100px;
 	height: 375px;
 	text-align: center;
 }
 
 .about-us-title {
-	padding: 60px 0 30px;
+	padding: 70px 0 30px;
 	color: black;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: 100;
 	font-size: 3.4em;
 	line-height: 1.5em;
-	width: 100%;
 	margin: auto;
 	text-align: center;
-	width: 45%;
+	width: 100%;
 }
 .about-us-text {
 	color: black;
@@ -129,10 +117,8 @@
 	font-weight: 100;
 	font-size: 1.9em;
 	line-height: 1.5em;
-	width: 100%;
 	margin: auto;
 	text-align: center;
-	width: 45%;
 }
 .about-us-link {
 	padding-top: 10px;
@@ -146,14 +132,6 @@
 	width: 100%;
 	margin: auto;
 	text-align: center;
-	width: 45%;
-}
-
-.about-us-right img {
-	display: block;
-	margin: auto;
-	width: 50%;
-	margin-left: 125px;
 }
 
 .FAQ-title {
@@ -163,7 +141,6 @@
 	font-weight: 100;
 	font-size: 3.4em;
 	line-height: 1em;
-	width: 100%;
 	margin: auto;
 	text-align: center;
 	width: 45%;
@@ -174,18 +151,9 @@
 	font-weight: 100;
 	font-size: 1.9rem;
 	line-height: 1.5em;
-	width: 100%;
 	margin: auto;
 	text-align: center;
 	width: 45%;
-}
-
-.FAQ-left img {
-	display: block;
-	margin: auto;
-	width: 50%;
-	margin-right: 200px;
-	margin-bottom: 100px;
 }
 
 .FAQ-text span {
@@ -197,21 +165,61 @@
 	font-size: 1.9rem;
 }
 
+#tail-text-h1 {
+	padding-top: 30px;
+}
+
 /* RESPONSIVE */
-@media (max-width: 1400px) {
-	.about-left-title {
-		font-size: 13rem;
-		line-height: 7rem;
+@media (max-width: 1700px) {
+	.landing-text-container h1 {
+		width: 75%;
+	}
+	.about-text-container {
+		grid-area: 2 / 1 / 3 / 2;
+		margin-left: 0px;
+		height: 550px;
+		padding-left: 10%;
+	}
+
+	.about-text-container h1 {
+		width: 50%;
+	}
+	.about-pic img {
+		margin: 0 0 0 0px;
+		height: 100%;
+	}
+	.landing-text-container {
+		width: 100vw;
+	}
+	.landing-text-container h1 {
+		font-size: 2.5em;
 	}
 }
-@media (max-width: 1300px) {
-	.about-left-title {
-		font-size: 12rem;
-		line-height: 6.65rem;
+@media (max-width: 1500px) {
+	.about-text-container {
+		height: 450px;
+		padding: 0 0 0 10%;
+		margin: 0 0 0 0;
 	}
-	.about-right-title {
-		font-size: 11rem;
-		line-height: 12rem;
+	.about-text-container h1 {
+		width: 75%;
+	}
+	.about-us-title {
+		padding: 5% 0 0 0;
+	}
+}
+
+@media (max-width: 1350px) {
+	.about-text-container {
+		margin-left: 0px;
+		height: 350px;
+		padding-left: 10%;
+	}
+	.about-text-container {
+		margin: 0 0 0 0;
+	}
+	.about-text-container h1 {
+		width: 90%;
 	}
 }
 @media (max-width: 1200px) {

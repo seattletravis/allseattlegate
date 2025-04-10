@@ -1,4 +1,5 @@
 import './landing.css';
+import Footer from '../Footer/Footer';
 import { NavLink } from 'react-router-dom';
 import img5 from '../Media/Images/GP3.png';
 import img6 from '../Media/Images/GP4.png';
@@ -78,7 +79,7 @@ function Landing() {
 						<button>SEE GALLERY</button>
 					</div>
 				</div>
-				<div className='about-text'>
+				<div className='about-text-container'>
 					<div>
 						<h1 className='about-us-title'>About Us</h1>
 						<h1 className='about-us-text'>
@@ -111,9 +112,10 @@ function Landing() {
 					<div className='landing-text-container' id='tail-text'>
 						<h1>FIND YOUR PERFECT GATE</h1>
 						<button>CONTACT US</button>
-						<h1>LETS TALK!</h1>
+						<h1 id='tail-text-h1'>GET QUOTE TODAY!</h1>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		</>
 	);
