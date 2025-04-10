@@ -65,14 +65,6 @@ function Landing() {
 						</li>
 					</ul>
 				</div>
-				<div class='wrapper'>
-					<div class='one'>One</div>
-					<div class='two'>Two</div>
-					<div class='three'>Three</div>
-					<div class='four'>Four</div>
-					<div class='five'>Five</div>
-					<div class='six'>Six</div>
-				</div>
 
 				<div className='landing-text-container'>
 					<h1>
@@ -106,7 +98,7 @@ function Landing() {
 					</div>
 					<div className='FAQ-right'>
 						<h1 className='FAQ-title'>Frequently Asked Questions</h1>
-						<h1 className='FAQ-text'>
+						<h1 className='FAQ-body-text'>
 							We get a lot of questions about our products. Please read through
 							our <span>freqently asked Q&As</span> if you're curious.
 						</h1>
@@ -119,12 +111,55 @@ function Landing() {
 				</div>
 			</div>
 			<div className='grid-container'>
-				<div className='open-statement-container'></div>
-				<div className='about-text'></div>
-				<div className='about-pic'></div>
-				<div className='FAQ-pic'></div>
-				<div className='FAQ-text'></div>
-				<div className='close-statement-container'></div>
+				<div className='open-statement-container'>
+					<div className='landing-text-container'>
+						<h1>
+							ALL SEATTLE GATE IS A SMALL CRAFT-TO-ORDER GATE COMPANY BASED IN
+							EDMONDS AND SERVICING THE GREATER SEATTLE AREA. WE USE MODERN WOOD
+							AND METAL WORKING TECHNIQUES TO FIT YOU WITH THE PERFECT GATEWAY
+							TO YOUR OUTDOOR SPACE.
+						</h1>
+						<button>SEE GALLERY</button>
+					</div>
+				</div>
+				<div className='about-text'>
+					<div>
+						<h1 className='about-us-title'>About Us</h1>
+						<h1 className='about-us-text'>
+							At All Seattle Gate, we specialize in creating custom gates that
+							elevate your yard with beauty and craftsmanship. Founded by two
+							friends with expertise in woodworking and metal construction, we
+							design gates that are both functional and timeless. From wooden
+							gates for garden charm to sleek metal designs for a modern edge,
+							we turn your vision into a stunning reality.
+						</h1>
+						<h1 className='about-us-link'>Learn more about our story.</h1>
+					</div>
+				</div>
+				<div className='about-pic'>
+					<div>
+						<img src={img5}></img>
+					</div>
+				</div>
+				<div className='FAQ-pic'>
+					<img src={img6}></img>
+				</div>
+				<div className='FAQ-text'>
+					<div>
+						<h1 className='FAQ-title'>Frequently Asked Questions</h1>
+						<h1 className='FAQ-body-text'>
+							We get a lot of questions about our products. Please read through
+							our <span>freqently asked Q&As</span> if you're curious.
+						</h1>
+					</div>
+				</div>
+				<div className='close-statement-container'>
+					<div className='landing-text-container' id='tail-text'>
+						<h1>FIND YOUR PERFECT GATE</h1>
+						<button>CONTACT US</button>
+						<h1>IAN AND TRAVIS ARE LOOKING FORWARD TO IT!</h1>
+					</div>
+				</div>
 			</div>
 		</>
 	);
